@@ -44,7 +44,7 @@ app.get("/api/users", (req, res) => {
   res.json({
     users: [
       { id: 1, name: "John" },
-      { id: 2, name: "Davidkumwar" },
+      { id: 2, name: "Davidkumwars" },
     ],
   });
 });
