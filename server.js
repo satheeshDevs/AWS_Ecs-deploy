@@ -83,7 +83,7 @@ app.get("/files/download-url", async (req, res) => {
       url,
     });
   } catch (error) {
-    console.error("Error generating S3 download URL:", error);
+    console.error("Error generating S3 downlodad URL:", error);
 
     res.status(500).json({
       message: "Failed to generate S3 download URL",
