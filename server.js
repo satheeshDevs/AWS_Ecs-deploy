@@ -63,7 +63,7 @@ app.get("/files/download-url", async (req, res) => {
 
     if (!key) {
       return res.status(400).json({
-        message: "key query parameter is requireds",
+        message: "key query parameters is requireds",
       });
     }
 
