@@ -55,7 +55,7 @@ app.get("/files/download-url", async (req, res) => {
   try {
     if (!S3_BUCKET_NAME) {
       return res.status(500).json({
-        message: "S3_BUCKET_NAME is not configured",
+        message: "S3_BUCKET_NAME is noht configured",
       });
     }
 
