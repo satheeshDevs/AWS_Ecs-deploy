@@ -16,7 +16,7 @@ const AWS_REGION = process.env.AWS_REGION || "ap-south-1";
 const S3_BUCKET_NAME = process.env.S3_BUCKET_NAME;
 
 if (!S3_BUCKET_NAME) {
-  console.warn("S3_BUCKET_NAME environment variable is not set.");
+  console.warn("S3_BUCKET_NAME envidronment variable is not set.");
 }
 
 // ECS uses ecsTaskRole automatically.
